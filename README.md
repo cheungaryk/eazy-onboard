@@ -7,6 +7,7 @@ This script is created to simplify the onboarding experience for a new engineer 
 ## Rationale
 
 As a new hire, onboarding typically takes hours or even days because of the following:
+
 - Find and locate (correct) onboarding docs
 - **Download software**
 - **Clone repos**
@@ -25,6 +26,7 @@ Simply run `make run`. As the script runs, part of the setups will prompt you to
 ## What Does it Actually Do?
 
 The script would do the following, in this order (if they don't already exist):
+
 1. generate an ssh keypair and instruct you to upload the public key to Github
 1. install homebrew
 1. install a number of apps via homebrew (for a full list, see [onboarding-inventory](./onboarding-inventory))
@@ -36,7 +38,7 @@ The script would do the following, in this order (if they don't already exist):
 1. configure AWS locally
 1. use AWS creds to configure kubeconfig
 1. ~~clone useful repos (for a full list of repos, see [onboarding-inventory](./onboarding-inventory))~~
-1. install kubectl aliases (see https://github.com/ahmetb/kubectl-aliases/blob/master/.kubectl_aliases)
+1. install kubectl aliases from [kubectl-aliases](https://github.com/ahmetb/kubectl-aliases/blob/master/.kubectl_aliases)
 1. add even more aliases
 
 ## How to Contribute
@@ -47,4 +49,5 @@ The script would do the following, in this order (if they don't already exist):
 - Add your feature to this readme
 
 ## Contributors
+
 Gary Cheung
