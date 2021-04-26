@@ -35,9 +35,6 @@ The script would do the following, in this order (if they don't already exist):
 1. install Docker for Mac (MacOS Security may block the initial start. Instructions provided on how to resolve it in Systems Preferences) and config it
 1. configure git to resolve some common errors
 1. configure terraform to use the correct version
-1. configure AWS locally
-1. use AWS creds to configure kubeconfig
-1. ~~clone useful repos (for a full list of repos, see [onboarding-inventory](./onboarding-inventory))~~
 1. install kubectl aliases from [kubectl-aliases](https://github.com/ahmetb/kubectl-aliases/blob/master/.kubectl_aliases)
 1. add even more aliases
 
